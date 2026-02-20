@@ -1,0 +1,59 @@
+# .gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Build
+dist/
+out/
+*.exe
+*.dmg
+*.AppImage
+
+# Database
+*.sqlite
+*.sqlite-journal
+database/*.sqlite
+database/backup-*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Backups
+*.backup
+*.bak
+database/backup-*
+
+# Electron
+electron-builder.yaml
+
+# Git
+*.orig
